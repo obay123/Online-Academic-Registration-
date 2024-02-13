@@ -1,0 +1,143 @@
+      /* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+ margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+	min-height: 100vh;
+	background-color: #f0f6f9;
+	color: white;
+}
+
+/* Styles for the header, footer, and main sections */
+header, footer, main {
+  padding: 20px;
+}
+
+  header {
+    background-color: #0a3161;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1 ;
+  }
+
+header.scrolled {
+  background-color: #0f54a9;
+}
+header nav {
+    padding: 0px;
+  }
+
+
+header nav ul {
+  list-style: none;
+  display: flex; /* Display items in a row */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Vertically center items */
+}
+
+header nav ul li {
+  margin: 0 30px; /* Adjust spacing between items */
+  font-size: 18px; /* Increase font size for better visibility */
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #f9c624;
+  font-weight: bold;
+  padding:  20px;
+}
+
+main {
+  background-color: #f0f6f9;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+
+
+
+/* Adjusted logo styles */
+.logo {
+  width: 225px; /* Set the width to match your logo dimensions */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Adjust position as needed */
+  top: 10px;
+  left: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Styles for the hero section */
+.hero {
+
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+ion-icon {
+  font-size: 30px;
+}
+ion-icon {
+  --ionicon-stroke-width: 16px;
+}
+footer {
+  background-color: #0a3161;
+  padding: 20px 0;
+  transition: opacity 0.5s ease; /* Add a smooth transition effect */
+  opacity: 0; /* Initially set opacity to 0 */
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo{
+  padding : 20 px ;
+}
+
+.footer-info p {
+  font-size: 16px;
+  margin: 0 ; /* Remove default margin for cleaner appearance */
+  padding : 15px ;
+  padding-left : 0 px ; 
+
+}
+
+.reveal {
+  opacity: 1; /* Set opacity to 1 when the 'reveal' class is added */
+}
+.rights{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+  padding-top : 50px ;
+}

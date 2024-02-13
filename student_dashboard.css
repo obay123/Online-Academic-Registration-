@@ -1,0 +1,148 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and font to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Style the header with a background color and centered text */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  /* Style the header and navigation bar */
+  header {
+    background-color: #0a3161;
+    color: white;
+    padding:  10px;
+    padding-bottom: 0 ;
+    text-align: center;
+    
+    
+  }
+  
+   header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display : flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Vertically center items */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin :  10px;
+    font-size: 20px ;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0 ;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: none;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color:  #f9c624;
+    font-weight: bold;
+    padding:  20px;
+    
+  }
+
+/* Center content on the page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the navigation bar */
+
+
+/* Style tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0a3161;
+    color: white;
+}
+
+/* Add some spacing to lists */
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Style buttons */
+.button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Style forms and form elements */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add space for tables and lists */
+.space {
+    margin-top: 20px;
+}
+ion-icon {
+    font-size: 20px;
+  }
+  ion-icon {
+    --ionicon-stroke-width: 40px;
+  }

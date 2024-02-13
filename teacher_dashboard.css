@@ -1,0 +1,133 @@
+/* Reset some default styles */
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Poppins', sans-serif;
+   }
+   
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the header */
+header {
+    background-color: #123760;  
+    padding: 10px;
+    text-align: center;
+}
+ nav ul {
+    list-style: none;
+    display: flex; /* Display items in a row */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Vertically center items */
+  }
+   nav ul li {
+    margin: 0 30px; /* Adjust spacing between items */
+    font-size: 18px; /* Increase font size for better visibility */
+  }
+  
+ nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+ nav ul li a:hover {
+    color: #f9c624;
+    font-weight: bold;
+    padding:  20px;
+  }
+/* Style the main content area */
+main {
+    padding: 10;
+}
+
+/* Style the form for adding grades */
+form {
+    background-color: #4148c8a0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    max-width: 400px; /* Adjust this to your preference */
+    margin: 0 auto; /* Center the form */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b08989;
+    border-radius: 13px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the table displaying grades */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.message.success {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.message.error {
+    background-color: #f44336;
+    color: white;
+}
+
+ion-icon {
+    font-size: 30px;
+  }
+  ion-icon {
+    --ionicon-stroke-width: 16px;
+  }
+
+/* Additional styles can be added based on your preferences */
